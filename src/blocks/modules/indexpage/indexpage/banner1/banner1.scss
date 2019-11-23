@@ -1,0 +1,85 @@
+.ban{
+    background-color: $p1;
+    img{
+        margin-top: 10px;
+    }
+    .gid{
+        color: white;
+        font-family: $gabi;
+        font-size: 39px;
+        font-weight: 400;
+    }
+    .net{
+        font-family: $poppinslight;
+        font-weight: 100;
+        font-size: 13px;
+        color: white;
+        letter-spacing: 0.26px;
+        margin-top: -25px;
+    }
+    .essay{
+        color: #ecfa4d;
+        font-family: $poppins;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .dav{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    ul{
+        display: flex;
+        list-style-type: none;
+    }
+    a{
+        font-family: $poppins;
+        font-weight: 600;
+        letter-spacing: 0.24px;
+        color: white;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+    i{
+        color: white;
+    }
+    .neoplan{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .button1{
+            @include btn1-1(100px, 40px, $p1-d1, 2px solid $p1-d1, 2%, 5px);
+            margin-left: 5px;
+            color: white;
+            text-align: center;
+
+        }
+        .button2{
+            @include btn1-1(100px, 40px, $p2, 2px solid $p2, 2%, 5px);
+            color: white;
+        }
+    }
+    .circle{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: 2px solid white;
+        position: relative;
+        i{
+            color: white;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            transform: rotate(90deg);
+        }
+    }
+    .burger{
+        div{
+            width: 35px;
+            height: 5px;
+            background-color: white;
+            margin: 6px 0;
+        }
+    }
+
+}

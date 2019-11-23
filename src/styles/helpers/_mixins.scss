@@ -1,0 +1,51 @@
+@mixin headero ($font-size: 35px, $font-family: $poppins, $font-weight: 800, $font-color: $p4-d1)
+{
+    font-size: $font-size;
+    font-family: $poppins;
+    font-weight: $font-weight;
+    color: $font-color;
+}
+@mixin press ($backround-color:#03a9f4, $font-color:#ffff)
+{
+    background-color: $backround-color;
+    color: $font-color;
+}
+@mixin quote ($font-size: 17px, $font-family: $poppins, $font-weight: 500, $font-color: $p1-d1){
+    font-size: $font-size;
+    font-family: $font-family;
+    font-weight: $font-weight;
+    color: $font-color;
+}
+@mixin quoteb ($backround, $padding, $color, $style, $width){
+    background-color: $backround;
+    padding: $padding;
+    border-left-color: $color;
+    border-left-style: $style;
+    border-left-width: $width;
+}
+@mixin inputs ($font-size, $font-weight, $font){
+    font-size: $font-size;
+    font-weight: $font-weight;
+    font-family: $font;
+}
+@mixin inputborder ($width, $height, $border-size, $border-style, $border-color, $padding, $backround-color)
+{
+    width: $width;
+    height: $height;
+    border-width: $border-size;
+    border-style: $border-style;
+    border-color: $border-color;
+    padding-left: $padding;
+    background-color: $backround-color;
+}  
+@mixin btn1-1 ($width, $height, $backround, $border, $radius, $margin){
+    width: $width;
+    height: $height;
+    background-color: $backround;
+    border: $border;
+    border-radius: $radius;
+    margin-right: $margin;
+} 
+
+    
+

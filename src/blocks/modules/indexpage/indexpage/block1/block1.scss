@@ -1,0 +1,42 @@
+.nn{
+    background-color: #e6f7fe;
+    padding-top: 75px;
+    background-image: url(../../../../../img/2-layers.png);
+    height: 590px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    .col-b{
+        position: relative;
+        top: -10px;
+    }
+    .headermain{
+        color: $p1;
+        font-weight: 700;
+        letter-spacing: 0.94px;
+        font-size: 40px;
+    }
+    h1{
+        font-weight: 800;
+        letter-spacing: 0.94px;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    hr{
+        color: $p4-d1;
+        border: 1px solid $p4-d1;
+    }
+    p{
+    color: #656a70;
+    font-family: $poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+    }
+    button{
+        @include btn1-1(220px, 50px, $p2, 2px solid $p2,2%, 10px);
+        color: white;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}

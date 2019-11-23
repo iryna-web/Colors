@@ -1,0 +1,111 @@
+.colorpalet{
+    p{
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 23px;
+        font-family: $sans;
+        padding-left: 30px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    hr{
+        width: 94%;
+        border-color: $p4-l3;
+    }
+}
+.color{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+
+    div{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+}
+.p-1{
+    background-color: $p1;
+}
+.p-2{
+    background-color: $p2;
+}
+.p-3{
+    background-color: $p3;
+}
+.p-4{
+    background-color: $p4;
+}
+.l1-1{
+    background-color: $p1-l1;
+}
+.l2-1{
+    background-color: $p1-l2;
+}
+.l3-1{
+    background-color: $p1-l3;
+}
+.d3-1{
+    background-color: $p1-d1;
+}
+.d2-1{
+    background-color: $p1-d2;
+}
+.d1-1{
+    background-color: $p1-d3;
+}
+.l1-2{
+    background-color: $p2-l1;
+}
+.l2-2{
+    background-color: $p2-l2;
+}
+.l3-2{
+    background-color: $p2-l3;
+}
+.d3-2{
+    background-color: $p2-d1;
+}
+.d2-2{
+    background-color: $p2-d2;
+}
+.d1-2{
+    background-color: $p2-d3;
+}
+.l1-3{
+    background-color: $p3-l1;
+}
+.l2-3{
+    background-color: $p3-l2;
+}
+.l3-3{
+    background-color: $p3-l3;
+}
+.d3-3{
+    background-color: $p3-d1;
+}
+.d2-3{
+    background-color: $p3-d2;
+}
+.d1-3{
+    background-color: $p3-d3;
+}
+.l1-4{
+    background-color: $p4-l1;
+}
+.l2-4{
+    background-color: $p4-l2;
+}
+.l3-4{
+    background-color: $p4-l3;
+}
+.d3-4{
+    background-color: $p4-d1;
+}
+.d2-4{
+    background-color: $p4-d2;
+}
+.d1-4{
+    background-color: $p4-d3;
+}

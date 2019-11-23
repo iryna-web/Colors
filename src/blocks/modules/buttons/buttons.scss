@@ -1,0 +1,344 @@
+.mm{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 25px;
+}
+.btn1{
+    @include btn1-1 (200px, 50px, $p2, 2px solid $p2, 2%, 20px);
+    font-family: $poppins;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+.btn1:hover{
+    opacity: 0.5;
+}
+.btn2{
+    @include btn1-1(280px, 50px, $p1, 2px solid $p1, 2%, 20px);
+    font-family: $poppins;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+.btn2:hover{
+    opacity: 0.5;
+}
+.btn3{
+    @include btn1-1(200px, 50px, $p2, 2px solid $p2, 2%, 20px);
+    font-family: $poppins;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+.btn3:hover{
+    opacity: 0.5;
+}
+.btn4{
+    @include btn1-1(220px, 50px, #fff, 2px solid $p2, 2%, 20px);
+    font-family: $poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: $p2;
+}
+.btn4:hover{
+    opacity: 0.5;
+    background-color: $p2;
+    color: white;
+}
+.btn5{
+    @include btn1-1(200px, 50px, #fff, 2px solid $p1, 2%, 20px);
+    font-family: $poppins;
+    font-size: 14px;
+    font-weight: 500;
+    color: $p1;
+}
+.btn5:hover{
+    opacity: 0.5;
+    background-color: $p1;
+    color: white;
+}
+.btn11:disabled{
+    @include btn1-1(200px, 50px, $p4-l2, 2px solid $p4-l2, 2%,20px);
+    color: white;
+    font-family: $poppins;
+    font-weight: 400;
+    font-size: 14px;
+}
+.btn12{
+    @include btn1-1(280px, 50px, $p4-l2, 2px solid $p4-l2, 2%, 20px);
+    font-family: $poppins;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+.btn13{
+    @include btn1-1 (200px, 50px, $p4-l2, 2px solid $p4-l2, 2%, 20px);
+    font-family: $poppins;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+.btn14{
+    @include btn1-1(220px, 50px, $p4-l2, 2px solid $p4-l2, 2%, 20px);
+    font-family: $poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+.btn15{
+    @include btn1-1(200px, 50px, $p4-l2, 2px solid $p4-l2, 2%, 20px);
+    font-family: $poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+.pet{
+    height: 50px;
+    background-color: #fff;
+}
+.btn111{
+    @include btn1-1(150px, 40px, $p2, 2px solid $p2, 2%, 20px);
+    font-family: $poppins;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+.btn111:hover {
+    opacity: 0.5;
+}
+.btn222{
+    @include btn1-1(170px, 40px, $p1, 2px solid $p1, 2%, 20px);
+    font-family: $poppins;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+.btn222:hover{
+    opacity: 0.5;
+}
+.btn333{
+    @include btn1-1(150px, 40px, $p1, 2px solid $p1, 2%, 20px);
+    font-family: $poppins;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+.btn333:hover{
+    opacity: 0.5;
+}
+.btn444{
+    @include btn1-1(150px, 40px, #fff, 2px solid $p2, 2%, 20px);
+    font-family: $poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: $p2;
+}
+.btn444:hover{
+    opacity: 0.5;
+    background-color: $p2;
+    color: white;
+}
+.btn555{
+    @include btn1-1(150px, 40px, #fff, 2px solid $p1, 2%, 20px);
+    font-family: $poppins;
+    font-size: 14px;
+    font-weight: 500;
+    color: $p1;
+}
+.btn555:hover{
+    opacity: 0.5;
+    background-color: $p1;
+    color: white;
+}
+.btn1111{
+    @include btn1-1(150px, 40px, $p4-l2, 2px solid $p4-l2, 2%, 20px);
+    font-family: $poppins;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+}
+.btn2222{
+    @include btn1-1(170px, 40px, $p4-l2, 2px solid $p4-l2, 2%, 20px);
+    font-family: $poppins;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+.btn3333{
+    @include btn1-1(150px, 40px, $p4-l2, 2px solid $p4-l2, 2%, 20px);
+    font-family: $poppins;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+}
+.btn4444{
+    @include btn1-1(150px, 40px, $p4-l2, 2px solid $p4-l2, 2%, 20px);
+    font-family: $poppins;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.btn5555{
+    @include btn1-1(150px, 40px, $p4-l2, 2px solid $p4-l2, 2%, 20px);
+    font-family: $poppins;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+.kk{
+    margin-top: 50px;
+    .dd{
+        a{
+            color: $p2;
+        }
+    }
+    a{
+        margin-left: 30px;
+        color: $p4;
+    }
+    a:hover{
+        text-decoration: none;
+        color: $p4-l3;
+    }
+    hr{
+        border: 1px solid $p4-l3;
+        width: 50%;
+        position: relative;
+        left: -250px;
+    }
+
+}
+.ll{
+    color: #51555a;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 30px;
+}
+.neoflex{
+    display: flex;
+    justify-content: space-around;
+    color: $p4-l1;
+    margin-bottom: 50px;
+    position: relative;
+    .ss{
+        height: 30px;
+        width: 30px;
+        background-color: white;
+        border-radius: 50%;
+        position: relative;
+    }
+    .ss:hover{
+        background-color: $p1;
+    } 
+    .ss:hover .zz, .xx{
+        color: white;
+    }
+    .zz{
+        position: absolute;
+        top: 5px;
+        left: 12px;
+        font-family: $poppins;
+        font-size: 13px;
+        color: $p4-l1;
+    } 
+}
+.par1{
+    font-family: $museo;
+    font-size: 13px;
+    font-weight: 400;
+    color: $p4-l1;
+    border: none;
+    margin-bottom: 15px;
+}
+.testing{
+    .par1{
+        font-family: $museo;
+        font-size: 13px;
+        font-weight: 400;
+        color: $p4-l1;
+        border: none;
+        margin-bottom: 15px;
+    }
+    p{
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20px;
+    font-family: $poppins;
+    color: $p4;
+    text-align: justify;
+    border: 1px solid $p4-l1;
+    padding: 25px;
+    }
+}
+.neoflexi{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    .graycircle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: $p4;}
+    .graycircle:hover{
+    background-color: $p1;}
+}
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    padding: 15px;
+    div{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        background-color: transparent;
+        border: 1px solid transparent;
+        position: relative;
+    }
+    i{
+        color: $p4-l1;
+        position: absolute;
+        top: 9px;
+        left: 10px;
+    }
+}
+.socials:hover{
+    background-color: $p1;
+    div{
+        border-color: white;
+    }
+    i{
+        color: white;
+    }
+}
+.socialiti{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    margin-top: 25px;
+    padding: 15px;
+    div{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        background-color: transparent;
+        border: 1px solid transparent;
+        position: relative;
+    }
+    i{
+        position: absolute;
+        top: 9px;
+        left: 10px;
+    }
+}
+.socialiti:hover{
+    background-color: $p1 !important;
+    div{
+        background-color: $p1-d1 !important;
+    }
+    i{
+        color: white !important;
+    }
+}

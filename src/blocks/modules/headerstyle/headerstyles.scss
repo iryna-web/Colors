@@ -1,0 +1,80 @@
+.hs{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 23px;
+    font-family: $sans;
+    padding-left: 30px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.nemo{
+    h1{
+        @include headero(35px, 900);
+    }
+    h1:hover{
+        @include press;
+    }
+    h2{
+        @include headero(33px, 600, $p4-d2);
+    }
+    h2:hover{
+        @include press;
+    }
+    h3{
+        @include headero(27px, 600);        
+    }
+    h3:hover{
+        @include press;
+    }
+    h4{
+        @include headero(22px, 600);
+    }
+    h4:hover{
+        @include press;
+    }
+    h5{
+        @include headero(17px, 600);
+    }
+    h5:hover{
+        @include press;
+    }
+    h6{
+        @include headero(15px, 600);
+    }
+    h6:hover{
+        @include press;
+    }
+}
+.colump{
+    margin-top: 40px;
+    .par{
+        @include headero(14px, 400);
+    }
+    p{
+        @include headero(14px, $p4-d1);
+        text-align: justify;
+    }
+    ul{
+        margin-left: 1px;
+        line-height: 30px;
+    }
+    li{
+        @include headero(15px, $p4-d1);
+        i{
+            color: #03a9f4;
+            margin-right: 6px;
+        }
+    }
+    .sub{
+        @include headero(20px, $p4-d1);
+    }
+    .sub:hover{
+        @include press;
+    }
+    blockquote{
+        @include quoteb ($p1-l3, 30px, $p1-l1, solid, 2px);
+        p{
+            @include quote;
+        }
+    }
+}

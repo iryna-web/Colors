@@ -1,0 +1,44 @@
+/*COLORS*/
+$p1: #03a9f4;
+$p2: #f75e2e;
+$p3: #ecfa4d;
+$p4: #656a70;
+
+$p1-l1: mix($p1, #ffffff, 60%);
+$p1-l2: mix($p1, #ffffff, 25%);
+$p1-l3: mix($p1, #ffffff, 10%);
+
+$p1-d1: mix($p1, #000, 80%);
+$p1-d2: mix($p1, #000, 60%);
+$p1-d3: mix($p1, #000, 30%);
+
+$p2-l1: mix($p2, #ffffff, 60%);
+$p2-l2: mix($p2, #ffffff, 25%);
+$p2-l3: mix($p2, #ffffff, 10%);
+
+$p2-d1: mix($p2, #000, 80%);
+$p2-d2: mix($p2, #000, 60%);
+$p2-d3: mix($p2, #000, 30%);
+
+$p3-l1: mix($p3, #ffffff, 60%);
+$p3-l2: mix($p3, #ffffff, 25%);
+$p3-l3: mix($p3, #ffffff, 10%);
+
+$p3-d1: mix($p3, #000, 80%);
+$p3-d2: mix($p3, #000, 60%);
+$p3-d3: mix($p3, #000, 30%);
+
+$p4-l1: mix($p4, #ffffff, 60%);
+$p4-l2: mix($p4, #ffffff, 25%);
+$p4-l3: mix($p4, #ffffff, 10%);
+
+$p4-d1: mix($p4, #000, 80%);
+$p4-d2: mix($p4, #000, 60%);
+$p4-d3: mix($p4, #000, 30%);
+
+/* FONTS*/
+$sans: 'Open Sans', sans-serif;
+$poppins:'Poppins', sans-serif;
+$gabi: 'Gabriela', serif;
+$museo:'Museo Sans 500';
+$poppinslight: 'Poppinse';
