@@ -1,13 +1,14 @@
 .nn{
-    background-color: #e6f7fe;
+    background-color: $p1-l3;
     padding-top: 75px;
     background-image: url(../../../../../img/2-layers.png);
-    height: 590px;
+    height: 580px;
     background-repeat: no-repeat;
     background-position-x: center;
     .col-b{
         position: relative;
         top: -10px;
+        z-index: 1;
     }
     .headermain{
         color: $p1;

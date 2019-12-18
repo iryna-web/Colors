@@ -46,6 +46,11 @@
     border-radius: $radius;
     margin-right: $margin;
 } 
+@mixin position ($positio, $top, $left){
+    position: $positio;
+    top: $top;
+    left: $left;
+}
 
     
 

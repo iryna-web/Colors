@@ -1,0 +1,53 @@
+.bb{
+    margin-top: 230px;
+    .row{
+        background-image: url(../../../../../img/arrows2.png);
+        background-repeat: no-repeat;
+        background-position-y: center;
+    }
+    .col-8{
+        position: relative;
+        :nth-child(4){
+            text-align: center;
+            color: $p4-d1;
+            font-family: $poppins;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+        }
+        :nth-child(5){
+            text-align: center;
+            color: $p1;
+            font-size: 17px;
+            font-weight: 400;
+            font-family: $poppins;
+        }
+        :nth-child(6){
+            margin-left: 307px;
+            color: $p4-l1;
+            font-family: $poppins;
+            font-size: 13px;
+            font-weight: 300;
+        }
+    }
+    .nepo{
+        font-family: $poppins;
+        font-size: 15px;
+        font-weight: 400;
+        color: $p1;
+        margin-top: 60px;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 30px;
+        @include headero(33px, 500);
+        color: $p4-d2;
+    }
+    img{
+        position: relative;
+        left: 340px;
+        margin-bottom: 35px;
+    }
+}

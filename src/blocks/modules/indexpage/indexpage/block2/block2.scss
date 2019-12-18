@@ -1,0 +1,97 @@
+.zeta{
+    background-color: #ffffff;
+    position: relative;
+    height: 650px;
+    .col-6 {
+        margin-top: 100px;
+        .nepo{
+            font-family: $poppins;
+            font-size: 15px;
+            font-weight: 400;
+            color: $p1;
+            margin-top: 40px;
+        }
+        article{
+            h2{
+                margin-top: 20px;
+                margin-bottom: 15px;
+            }
+            h2:hover{
+                background-color: $p1;
+                color: white;
+            }
+        }
+    }   
+.blockup{
+    width: 1201px;
+    height: 136px;
+    box-shadow: 0 4px 30px rgba(202, 202, 202, 0.15);
+    background-color: $p1;
+    position: absolute;
+    top: -70px;
+    left: 115px;
+    z-index: 0;
+    display: flex;
+    justify-content: space-around;
+    .weva{
+        @include btn1-1 (201px, 50px, $p1-d1, 1px solid $p1-d1, 2%, 10px);
+        color: white;
+        margin-top: 43px;
+    }
+    button{
+        background-color: white;
+        color: $p4;
+        width: 202px;
+        height: 50px;
+        border: 1px solid #d8dadb;
+    }
+
+}
+.inp{
+    p{
+        color: white;
+        font-family: $poppins;
+        font-size: 13px;
+        font-weight: 500;
+        margin-top: 22px;
+    }
+}
+.dropdown-menu{
+    color: $p4-d1;
+}
+#dropdownMenuButton{
+    background-color: white;
+    color: $p4;
+}
+.netyl{
+    div{
+        width: 515px;
+        height: 415px;
+        background-color: $p1-l3;
+        margin-top: 140px;
+        position: relative;
+    }
+    img{
+        position: absolute;
+        top: 65px;
+        left: 110px;
+    }
+    h2{
+        position: absolute;
+        top: 88px;
+        left: 165px;
+        text-transform: uppercase;
+        color: $p1-d1;
+    }
+}
+.dropdown{
+    p{
+        color: white;
+        font-family: $poppins;
+        font-size: 13px;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+}
+}

@@ -1,0 +1,79 @@
+.zetal{
+    background-color: #ffffff;
+    position: relative;
+    height: 550px;
+    .row{
+        display: flex;
+        justify-content: space-around;
+    }
+    .nepo{
+        font-family: $poppins;
+        font-size: 15px;
+        font-weight: 400;
+        color: $p1;
+        margin-top: 60px;
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+        margin-bottom: 40px;
+        margin-top: 30px;
+        @include headero(33px, 500);
+        color: $p4-d2;
+    }
+}
+.zwei{
+    display: flex;
+    justify-content: space-evenly;
+    .eins{
+        border: 1px solid transparent;
+        width: 225px;
+        height: 300px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: 40px;
+        img{
+            margin-top: 15px;
+            margin-left: 75px;
+            margin-bottom: 40px;
+        }
+        h5{
+            font-size: 17px;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: $p4-d2;
+            text-align: center;
+            font-family: $poppins;
+        }
+        p{
+            text-align: center;
+            color: $p4;
+            font-family: $poppins;
+            font-size: 13px;
+            font-weight: 400px;
+        }
+    } 
+}
+.arrow{
+    div{
+        position: relative;
+        top: 130px;
+    }
+    div::before{
+        content: '';
+        display: block;
+        height: 100px;
+        width: 2px;
+        border: 1px solid #e1f5ff;
+        position: absolute;
+        top: -100px;
+    }
+    div::after{
+        content: '';
+        display: block;
+        height: 80px;
+        width: 2px;
+        border: 1px solid #e1f5ff;
+        position: absolute;
+    }
+}

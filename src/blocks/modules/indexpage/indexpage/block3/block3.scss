@@ -1,0 +1,84 @@
+.zerox{
+        width: 1920px;
+        height: 697px;
+        background-color: $p1;
+        background-image: url(../../../../../img/15-layers.png) ;
+        background-position-x: center;
+        background-repeat: no-repeat;
+        .nepo1{
+            text-align: center;
+            font-family: $poppins;
+            font-size: 15px;
+            font-weight: 400;
+            color: white;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+        h2{
+            font-size: 33px;
+            font-weight: 500;
+            color: white;
+            font-family: $poppins;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        button{
+            @include btn1-1(280px, 50px, $p1-d1, 1px solid $p1-d1, 1%, 10px);
+            margin-left: 415px;
+            margin-top: 25px;
+            color: white;
+            font-family: $poppins;
+            font-size: 14px;
+            font-weight: 500;
+            text-align: center;
+        }
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    .first{
+        width: 360px;
+        height: 312px;
+        box-shadow: 0 4px 20px rgba(202, 202, 202, 0.25);
+        background-color: #ffffff;
+        .gradient-circle{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: linear-gradient(to left, $p2 0%,$p2 50%, $p2-l1 51%,$p2-l1 100%);
+            margin-left: 120px;
+            margin-top: 25px;
+            position: relative;
+            margin-bottom: 10px;
+            .onep{
+                @include position(absolute, 35px, 18px);
+            }
+            .twop{
+                @include position(absolute, 37px, 23px);
+            }
+            .thirdp{
+                @include position(absolute, 27px, 21px);
+            }
+        }
+        h5{
+            text-align: center;
+            margin-right: 20px;
+            margin-left: 20px;
+            margin-top: 10px;
+            @include headero (17px, 500,);
+            color: $p4-d2;
+        }
+        h5:hover{
+            @include press
+        }
+        p{
+            text-align: center;
+            @include headero(14px, 400);
+            color: $p4;
+            line-height: 22px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+}
